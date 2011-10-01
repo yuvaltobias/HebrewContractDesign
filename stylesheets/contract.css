@@ -1,0 +1,171 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-weight: inherit;
+  font-style: inherit;
+  font-size: 100%;
+  font-family: inherit;
+  vertical-align: baseline; }
+
+:focus {
+  outline: 0; }
+
+html {
+  background-color: #f0f0f0; }
+
+body {
+  text-align: justify;
+  -moz-hyphens: auto;
+  -webkit-hyphens: auto;
+  margin: 2em auto 2em auto;
+  padding: 0 2em 0 2em;
+  max-width: 30em;
+  line-height: 1.4em;
+  font-size: 1.2em;
+  font-family: David, "Times New Roman", serif; }
+
+input {
+  font-family: David, "Times New Roman", serif;
+  font-size: 1em;
+  line-height: 1em;
+  padding: 0.2em;
+  max-width: 90%;
+  font-weight: inherit; }
+
+::selection, ::moz-selection {
+  background-color: #fff2a8; }
+
+a, a:visited {
+  color: #1122cc;
+  text-decoration: none;
+  border-bottom: 1px dotted #1122cc; }
+
+a:hover {
+  border-bottom: 1px solid #1122cc; }
+
+table {
+  border-collapse: separate;
+  border-spacing: 0; }
+
+caption, th, td {
+  text-align: left;
+  font-weight: normal; }
+
+blockquote:before, blockquote:after, q:before, q:after {
+  content: ""; }
+
+blockquote, q {
+  quotes: "" ""; }
+
+p.logo {
+  text-align: left;
+  padding-bottom: 3em; }
+
+div#header h1 {
+  font-size: 2em;
+  margin-bottom: 1em;
+  letter-spacing: 0.15em;
+  text-shadow: 1px 1px 0px white; }
+div#header h2 {
+  font-size: 1em; }
+div#header h1, div#header h2 {
+  font-weight: bold;
+  text-align: center; }
+div#header div.between {
+  margin-top: 2em;
+  margin-right: 3em; }
+  div#header div.between p.between {
+    font-weight: bold;
+    float: right;
+    margin-right: -3em; }
+div#header p.side {
+  float: left;
+  font-weight: bold; }
+div#header div#whereas {
+  margin-top: 4em; }
+div#header div.whereas {
+  font-size: 0.8em;
+  margin-top: 1em;
+  margin-right: 5em; }
+  div#header div.whereas p.whereas {
+    float: right;
+    font-weight: bold;
+    margin-right: -5em; }
+div#header h3 {
+  text-align: center;
+  margin: 2em 0 2em 0; }
+
+ol.parts {
+  list-style-type: decimal;
+  list-style-position: outside; }
+
+ol.parts, ol h2 {
+  font-size: 1em;
+  font-weight: bold; }
+  ol.parts li.part, ol h2 li.part {
+    margin-top: 1.5em; }
+    ol.parts li.part > p, ol h2 li.part > p {
+      margin-top: 1em;
+      font-size: 0.8em;
+      font-weight: normal; }
+    ol.parts li.part div.index, ol h2 li.part div.index {
+      float: right; }
+    ol.parts li.part div.section, ol h2 li.part div.section {
+      margin-top: 1em;
+      font-size: 0.8em;
+      font-weight: normal;
+      margin-right: 2.5em; }
+      ol.parts li.part div.section div.index, ol h2 li.part div.section div.index {
+        margin-right: -2.5em; }
+      ol.parts li.part div.section div.subsection, ol h2 li.part div.section div.subsection {
+        margin-top: 1em;
+        margin-right: 3em; }
+        ol.parts li.part div.section div.subsection div.index, ol h2 li.part div.section div.subsection div.index {
+          margin-right: -3em; }
+
+dfn, strong {
+  font-weight: bold; }
+
+dfn:before, dfn:after {
+  content: "״"; }
+
+div#footer {
+  margin-top: 2em;
+  text-align: center; }
+  div#footer h3 {
+    text-align: center;
+    margin-bottom: 4em; }
+  div#footer div.signature {
+    display: inline-block;
+    vertical-align: top;
+    padding: 0 1em 0 1em;
+    width: 40%; }
+    div#footer div.signature p {
+      font-weight: bold; }
+    div#footer div.signature p.signature {
+      font-weight: normal;
+      font-size: 0.8em;
+      border-top: 1px solid gray; }
+
+a.bookmark, a.bookmark:visited {
+  font-weight: normal;
+  visibility: hidden; }
+
+h2:hover > a.bookmark, h2:hover > a.bookmark:visited, div.subsection > p:hover > a.bookmark, div.subsection > p:hover > a.bookmark:visited, div.section > p:hover > a.bookmark, div.section > p:hover > a.bookmark:visited, li.part > p:hover > a.bookmark, li.part > p:hover > a.bookmark:visited {
+  font-weight: normal;
+  visibility: visible;
+  border-bottom: none;
+  color: gray;
+  text-shadow: 1px 1px 0px white; }
+
+h2:hover > a.bookmark:hover, h2:hover > a.bookmark:visited:hover, div.subsection > p:hover > a.bookmark:hover, div.section > p:hover > a.bookmark:hover, li.part > p:hover > a.bookmark:hover {
+  color: #1122cc; }

@@ -1,0 +1,173 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td
+  margin: 0
+  padding: 0
+  border: 0
+  outline: 0
+  font-weight: inherit
+  font-style: inherit
+  font-size: 100%
+  font-family: inherit
+  vertical-align: baseline
+
+\:focus
+  outline: 0
+
+html
+  background-color: #f0f0f0
+
+body
+  text-align: justify
+  -moz-hyphens: auto
+  -webkit-hyphens: auto
+  margin: 2em auto 2em auto
+  padding: 0 2em 0 2em
+  max-width: 30em
+  line-height: 1.4em
+  font-size: 1.2em
+  font-family: David, "Times New Roman", serif
+
+input
+  font-family: David, "Times New Roman", serif
+  font-size: 1em
+  line-height: 1em
+  padding: 0.2em
+  max-width: 90%
+  font-weight: inherit
+
+::selection, ::moz-selection
+  background-color: #fff2a8
+
+a, a:visited
+  color: #12C
+  text-decoration: none
+  border-bottom: 1px dotted #12C
+
+a:hover
+  border-bottom: 1px solid #12C
+
+table
+  border-collapse: separate
+  border-spacing: 0
+
+caption, th, td
+  text-align: left
+  font-weight: normal
+
+blockquote:before, blockquote:after, q:before, q:after
+  content: ""
+
+blockquote, q
+  quotes: "" ""
+
+
+p.logo
+  text-align: left
+  padding-bottom: 3em
+
+div#header
+  h1
+    font-size: 2em
+    margin-bottom: 1em
+    letter-spacing: 0.15em
+    text-shadow: 1px 1px 0px white
+  h2
+    font-size: 1em
+  h1, h2
+    font-weight: bold
+    text-align: center
+  div.between
+    margin-top: 2em
+    margin-right: 3em
+    p.between
+      font-weight: bold
+      float: right
+      margin-right: -3em
+  p.side
+    float: left
+    font-weight: bold
+  div#whereas
+    margin-top: 4em
+  div.whereas
+    font-size: 0.8em
+    margin-top: 1em
+    margin-right: 5em
+    p.whereas
+      float: right
+      font-weight: bold
+      margin-right: -5em
+  h3
+    text-align: center
+    margin: 2em 0 2em 0
+
+ol.parts
+  list-style-type: decimal
+  list-style-position: outside
+
+ol.parts, ol h2
+  font-size: 1em
+  font-weight: bold
+  li.part
+    margin-top: 1.5em
+    >p
+      margin-top: 1em
+      font-size: 0.8em
+      font-weight: normal
+    div.index
+      float: right
+    div.section
+      margin-top: 1em
+      font-size: 0.8em
+      font-weight: normal
+      margin-right: 2.5em
+      div.index
+        margin-right: -2.5em
+      div.subsection
+        margin-top: 1em
+        margin-right: 3em
+        div.index
+          margin-right: -3em
+
+dfn, strong
+  font-weight: bold
+
+dfn:before, dfn:after
+  content: "״"
+  
+div#footer
+  margin-top: 2em
+  text-align: center
+  h3
+    text-align: center
+    margin-bottom: 4em
+  div.signature
+    display: inline-block
+    vertical-align: top
+    padding: 0 1em 0 1em
+    width: 40%
+    p
+      font-weight: bold
+    p.signature
+      font-weight: normal
+      font-size: 0.8em
+      border-top: 1px solid gray
+
+a.bookmark, a.bookmark:visited
+  font-weight: normal
+  visibility: hidden
+  
+h2:hover>a.bookmark, h2:hover>a.bookmark:visited, div.subsection>p:hover>a.bookmark, div.subsection>p:hover>a.bookmark:visited, div.section>p:hover>a.bookmark, div.section>p:hover>a.bookmark:visited, li.part>p:hover>a.bookmark, li.part>p:hover>a.bookmark:visited
+  font-weight: normal
+  visibility: visible
+  border-bottom: none
+  color: gray
+  text-shadow: 1px 1px 0px white
+
+h2:hover>a.bookmark:hover, h2:hover>a.bookmark:visited:hover, div.subsection>p:hover>a.bookmark:hover, div.section>p:hover>a.bookmark:hover, li.part>p:hover>a.bookmark:hover
+  color: #12C
